@@ -1,0 +1,79 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: "orbitron",sans-serif;
+    
+    
+    }
+    .contaner{
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+         gap:3rem;
+         padding-top: 4rem;
+         background-color: rgb(12, 12, 12);
+         height:100vh;
+    }
+    .contaner h1{
+    
+    color: #ffffff;
+    }
+    
+    
+    .buttons{
+        display: flex;
+        flex-direction: row;
+         gap: 1rem;
+     }
+     .btn{
+        padding:  10px 20px;
+        font-size: 20px; 
+        font-weight: bold;
+        border-radius: 50px; 
+        cursor: pointer;
+        border: rgb(67, 75, 75);
+        transition: all .2s ease-in-out;
+     }
+    
+    .btn:hover{
+        transform: scale(1.1);
+    }
+    #startBtn{
+        background-color: #eaedee;
+        color: rgb(1, 6, 10);
+    }
+    
+    
+    #resumeBtn,#pauseBtn{
+        display: none;
+    }
+    
+       
+     
+    
+    
+    .time{
+      display: flex;
+      font-size:  45px;
+      font-weight: bold;
+      color: rgb(15, 91, 231);
+    
+    }
+    
+    .timer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: right 10px;
+        color: rgb(59, 143, 221);
+    }
+    .separator{
+       padding: 0 10px;
+       color: rgb(23, 73, 236);
+    
+    }
+    #milliseconds{
+       font-size:  28px;
+       color: rgb(241, 26, 26);
+    
+    }
